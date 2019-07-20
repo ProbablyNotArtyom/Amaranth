@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name 68k)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/68k.lib)(options "")(descr ""))
+  (lib (name Altera)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/Altera.lib)(options "")(descr ""))
+  (lib (name atx24)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/atx24.lib)(options "")(descr ""))
+  (lib (name Azure)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/Azure.lib)(options "")(descr ""))
+  (lib (name BBlitz)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/BBlitz.lib)(options "")(descr ""))
+  (lib (name issi)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/issi.lib)(options "")(descr ""))
+  (lib (name Amaranth)(type Legacy)(uri /home/artyom/Desktop/Projects/Amaranth/Hardware/Amaranth.lib)(options "")(descr ""))
+)

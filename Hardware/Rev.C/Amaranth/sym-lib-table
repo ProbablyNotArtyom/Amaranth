@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name 68k)(type Legacy)(uri ${KIPRJMOD}/../../68k.lib)(options "")(descr ""))
+  (lib (name Altera)(type Legacy)(uri ${KIPRJMOD}/../../Altera.lib)(options "")(descr ""))
+  (lib (name atx24)(type Legacy)(uri ${KIPRJMOD}/../../atx24.lib)(options "")(descr ""))
+  (lib (name Azure)(type Legacy)(uri ${KIPRJMOD}/../../Azure.lib)(options "")(descr ""))
+  (lib (name BBlitz)(type Legacy)(uri ${KIPRJMOD}/../../BBlitz.lib)(options "")(descr ""))
+  (lib (name issi)(type Legacy)(uri ${KIPRJMOD}/../../issi.lib)(options "")(descr ""))
+  (lib (name Amaranth)(type Legacy)(uri ${KIPRJMOD}/../../Amaranth.lib)(options "")(descr ""))
+)

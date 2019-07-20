@@ -1,0 +1,26 @@
+|Main
+a_bus_in[0] => a_bus_in[0].IN1
+a_bus_in[1] => a_bus_in[1].IN1
+a_bus_in[2] => a_bus_in[2].IN1
+a_bus_in[3] => a_bus_in[3].IN1
+reset => ~NO_FANOUT~
+clk => clk.IN1
+CS_rom <= Address_Range_Decoder_Static:addr_decode_0.cs_out
+CS_sram <= Address_Range_Decoder_Static:addr_decode_0.cs_out
+CS_dram <= Address_Range_Decoder_Static:addr_decode_0.cs_out
+
+
+|Main|Address_Range_Decoder_Static:addr_decode_0
+clk => ~NO_FANOUT~
+addr[0] => ~NO_FANOUT~
+addr[1] => ~NO_FANOUT~
+addr[2] => ~NO_FANOUT~
+addr[3] => ~NO_FANOUT~
+cs_out[0] <= <GND>
+cs_out[1] <= <GND>
+cs_out[2] <= <GND>
+cs_out[3] <= <GND>
+cs_out[4] <= <GND>
+cs_out[5] <= <GND>
+
+

@@ -1,0 +1,400 @@
+87752687984812
+Amaranth
+atx mounting hole
+
+
+0
+1
+1
+Amaranth
+atx_mounting_hole
+
+
+0
+1
+1
+Amaranth
+AT_PSU
+
+
+0
+6
+6
+Amaranth
+BGA-169_13x13_11.0x11.0mm
+
+
+0
+169
+169
+Amaranth
+BUS_AT_VERT
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+98
+98
+Amaranth
+conn_usb_A
+USB A-type receptacle, Tyco P/N 292303-3
+
+0
+6
+4
+Amaranth
+conn_usb_A-vert
+USB A-type vertical receptacle, Tyco P/N 440260-2
+
+0
+8
+4
+Amaranth
+conn_usb_Ax2
+USB A-type receptacle, 2x stacked, Tyco P/N 5787617-3
+
+0
+12
+8
+Amaranth
+CQFP-132
+
+
+0
+132
+132
+Amaranth
+CQFP-304
+
+
+0
+304
+304
+Amaranth
+C_0603_SMALL_REF
+
+
+0
+2
+2
+Amaranth
+C_0805_SMALL_REF
+
+
+0
+2
+2
+Amaranth
+C_ARRAY_0612
+
+
+0
+8
+8
+Amaranth
+Dsub-VGA
+
+
+0
+17
+16
+Amaranth
+Eurocard-96
+
+
+0
+96
+96
+Amaranth
+FPC_50
+
+
+0
+52
+51
+Amaranth
+ISA x8 VERT
+
+
+0
+62
+62
+Amaranth
+ISAx8
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+62
+62
+Amaranth
+ISAx8_(special)
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+62
+62
+Amaranth
+ISAx16
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+98
+98
+Amaranth
+ISAx16_(special)
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+98
+98
+Amaranth
+ISA_x8_VERT
+
+
+0
+62
+62
+Amaranth
+JDT-1800
+
+
+0
+14
+14
+Amaranth
+LCD
+Through hole pin header
+pin header
+0
+40
+40
+Amaranth
+PGA120
+Support PGA 120 pins
+PGA
+0
+128
+128
+Amaranth
+PLCC-32_TH
+PLCC, 32 pins, through hole
+plcc leaded
+0
+33
+32
+Amaranth
+PLCC-68
+Support CMS Plcc 68 Pins
+CMS PLCC
+0
+68
+68
+Amaranth
+Potentiometer_Bourns_3296P
+3296, 3/8, Square, Trimpot, Trimming, Potentiometer, Bourns
+3296, 3/8, Square, Trimpot, Trimming, Potentiometer, Bourns
+0
+3
+3
+Amaranth
+PQFP-132_24x24mm_P0.635mm
+PQFP, 132 pins, 24mm sq body, 0.635mm pitch (https://www.intel.com/content/dam/www/public/us/en/documents/packaging-databooks/packaging-chapter-02-databook.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 132
+0
+132
+132
+Amaranth
+PS2
+
+
+0
+9
+6
+Amaranth
+QFP_144
+
+
+0
+144
+144
+Amaranth
+R_ARRAY_BUSSED_8x1206
+
+
+0
+10
+10
+Amaranth
+SD_Card_Receptacle
+
+
+0
+13
+13
+Amaranth
+SIMM_72
+16
+
+0
+72
+72
+Amaranth
+smd_jumper_small
+
+
+0
+2
+2
+Amaranth
+SOIC-32
+
+
+0
+32
+32
+Amaranth
+SOJ-32
+
+
+0
+32
+32
+Amaranth
+SOJ-42
+
+
+0
+42
+42
+Amaranth
+SW_TH_Tactile
+SW_TH_Tactile_Omron_B3F-10xx
+Omron B3F-10xx
+0
+4
+4
+Amaranth
+TFBGA-48
+
+
+0
+48
+48
+Amaranth
+TFBGA_48
+
+
+0
+48
+48
+Amaranth
+TSSOP-54_6.1x14mm_Pitch0.5mm
+TSSOP56: plastic thin shrink small outline package; 56 leads; body width 6.1 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot364-1_po.pdf)
+SSOP 0.5
+0
+54
+54
+Amaranth
+TSSOP-II-44
+
+
+0
+44
+44
+Amaranth
+USB3_A_Molex_48393-001
+USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
+USB 3.0 type A right angle
+0
+13
+10
+Amaranth
+USB_A
+
+
+0
+6
+5
+Amaranth
+USB_C_Plug_Molex_105444
+Universal Serial Bus (USB) Shielded I/O Plug, Type C, Right Angle, Surface Mount, http://www.molex.com/pdm_docs/sd/1054440001_sd.pdf
+USB Type-C Plug Edge Mount
+0
+24
+23
+Amaranth
+USB_C_Receptacle_Amphenol_12401548E4-2A
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+Amaranth
+USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+Amaranth
+USB_C_Receptacle_Amphenol_12401610E4-2A
+USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
+USB C Type-C Receptacle SMD
+0
+28
+25
+Amaranth
+USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles
+USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
+USB C Type-C Receptacle SMD
+0
+28
+25
+Amaranth
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+Amaranth
+USB_Micro-B_Molex_47346-0001
+Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
+Micro B USB SMD
+0
+11
+6
+Amaranth
+USB_Micro-B_Vertical_Molex-105133-0001
+Molex Vertical Micro USB Typ-B (http://www.molex.com/pdm_docs/sd/1051330001_sd.pdf)
+Micro-USB SMD Typ-B Vertical
+0
+8
+6
+Amaranth
+USB_Micro-B_Wuerth-614105150721_Vertical
+USB Micro-B receptacle, through-hole, vertical, http://katalog.we-online.de/em/datasheet/614105150721.pdf
+usb micro receptacle vertical
+0
+7
+6
+Amaranth
+USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles
+USB Micro-B receptacle, through-hole, vertical, http://katalog.we-online.de/em/datasheet/614105150721.pdf
+usb micro receptacle vertical
+0
+7
+6
+Amaranth
+USB_Micro-B_Wuerth-629105150521
+USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf
+usb micro receptacle
+0
+9
+6
+Amaranth
+USB_Micro-B_Wuerth-629105150521_CircularHoles
+USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf
+usb micro receptacle
+0
+9
+6

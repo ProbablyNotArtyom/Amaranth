@@ -1,0 +1,95 @@
+|SDRAM
+clk_main => clk_main.IN1
+reset_in => reset_in.IN2
+clk_system <= <GND>
+bus_addr[0] => ~NO_FANOUT~
+bus_addr[1] => ~NO_FANOUT~
+bus_addr[2] => ~NO_FANOUT~
+bus_addr[3] => ~NO_FANOUT~
+bus_addr[4] => ~NO_FANOUT~
+bus_addr[5] => ~NO_FANOUT~
+bus_addr[6] => ~NO_FANOUT~
+bus_addr[7] => ~NO_FANOUT~
+bus_addr[8] => ~NO_FANOUT~
+bus_addr[9] => ~NO_FANOUT~
+bus_addr[10] => ~NO_FANOUT~
+bus_addr[11] => ~NO_FANOUT~
+bus_addr[12] => ~NO_FANOUT~
+bus_addr[13] => ~NO_FANOUT~
+bus_addr[14] => ~NO_FANOUT~
+bus_addr[15] => ~NO_FANOUT~
+bus_addr[16] => ~NO_FANOUT~
+bus_addr[17] => ~NO_FANOUT~
+bus_addr[18] => ~NO_FANOUT~
+bus_addr[19] => ~NO_FANOUT~
+bus_addr[20] => ~NO_FANOUT~
+bus_addr[21] => ~NO_FANOUT~
+bus_addr[22] => ~NO_FANOUT~
+bus_addr[23] => ~NO_FANOUT~
+CS_SDRAM => ~NO_FANOUT~
+CS_VGAMEM => ~NO_FANOUT~
+vga_blank <= <GND>
+vga_hsync <= sync_generator:vga_sync_gen.hsync_out
+vga_vsync <= sync_generator:vga_sync_gen.vsync_out
+vga_pixel_clock <= <GND>
+
+
+|SDRAM|clk_div_x2:clkgen_stage_1
+clk_in => clk_out~reg0.CLK
+reset_in => clk_out.OUTPUTSELECT
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SDRAM|clk_div_x2:clkgen_stage_2
+clk_in => clk_out~reg0.CLK
+reset_in => clk_out.OUTPUTSELECT
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SDRAM|sync_generator:vga_sync_gen
+clk => raster_visible~reg0.CLK
+clk => vga_vsync.CLK
+clk => vga_hsync.CLK
+clk => raster_y[0]~reg0.CLK
+clk => raster_y[1]~reg0.CLK
+clk => raster_y[2]~reg0.CLK
+clk => raster_y[3]~reg0.CLK
+clk => raster_y[4]~reg0.CLK
+clk => raster_y[5]~reg0.CLK
+clk => raster_y[6]~reg0.CLK
+clk => raster_y[7]~reg0.CLK
+clk => raster_y[8]~reg0.CLK
+clk => raster_x[0]~reg0.CLK
+clk => raster_x[1]~reg0.CLK
+clk => raster_x[2]~reg0.CLK
+clk => raster_x[3]~reg0.CLK
+clk => raster_x[4]~reg0.CLK
+clk => raster_x[5]~reg0.CLK
+clk => raster_x[6]~reg0.CLK
+clk => raster_x[7]~reg0.CLK
+clk => raster_x[8]~reg0.CLK
+clk => raster_x[9]~reg0.CLK
+hsync_out <= vga_hsync.DB_MAX_OUTPUT_PORT_TYPE
+vsync_out <= vga_vsync.DB_MAX_OUTPUT_PORT_TYPE
+raster_visible <= raster_visible~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[0] <= raster_x[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[1] <= raster_x[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[2] <= raster_x[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[3] <= raster_x[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[4] <= raster_x[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[5] <= raster_x[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[6] <= raster_x[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[7] <= raster_x[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[8] <= raster_x[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_x[9] <= raster_x[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[0] <= raster_y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[1] <= raster_y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[2] <= raster_y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[3] <= raster_y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[4] <= raster_y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[5] <= raster_y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[6] <= raster_y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[7] <= raster_y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+raster_y[8] <= raster_y[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
